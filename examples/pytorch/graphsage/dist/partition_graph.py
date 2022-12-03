@@ -43,7 +43,7 @@ if __name__ == "__main__":
     argparser.add_argument(
         "--num_trainers_per_machine",
         type=int,
-        default=1,
+        default=8,
         help="the number of trainers per machine. The trainer ids are stored\
                                 in the node feature 'trainer_id'",
     )
